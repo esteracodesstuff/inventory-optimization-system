@@ -1,0 +1,11 @@
+supplier_id,name,lead_time_mean_days,lead_time_std_days,reliability_score
+SUP-001,Supplier_A,8.3,3.0,0.863
+SUP-002,Supplier_B,4.2,2.0,0.937
+SUP-003,Supplier_C,8.5,2.0,0.904
+SUP-004,Supplier_D,7.0,0.5,0.988
+SUP-005,Supplier_E,4.7,0.6,0.915
+SUP-006,Supplier_F,10.8,1.8,0.97
+SUP-007,Supplier_G,3.7,1.5,0.945
+SUP-008,Supplier_H,11.7,0.6,0.913
+SUP-009,Supplier_I,14.3,2.9,0.852
+SUP-010,Supplier_J,3.0,1.1,0.982

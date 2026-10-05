@@ -1,0 +1,4 @@
+warehouse_id,location,capacity_units,operating_cost_daily
+WH-001,"New York, NY",171958,1733.74
+WH-002,"Los Angeles, CA",196867,4118.76
+WH-003,"Chicago, IL",181932,3387.4
