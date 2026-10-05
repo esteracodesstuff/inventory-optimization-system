@@ -1,0 +1,25 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv
+
+# Data & Models (Never commit raw data or large model weights)
+data/raw/*
+data/processed/*
+*.pkl
+*.h5
+*.parquet
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

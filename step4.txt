@@ -1,0 +1,20 @@
+
+### Step 4: A Git Strategy for Solo Mathematicians
+
+Do **not** use complex GitFlow (feature branches, release branches, hotfixes). It's overkill and will just annoy you. Use **Trunk-Based Development** with a simple rule:
+
+**The "Logical Step" Commit Rule:**
+Since you are a logician, treat your commit history like a mathematical proof. Each commit should be a single, logical step forward. 
+
+*Bad commit message:* `fixed bug in code`
+*Good commit message:* `Implement Bellman equation recursion for (s,S) policy`
+
+*Bad commit message:* `added data stuff`
+*Good commit message:* `Define PostgreSQL schema for multi-warehouse inventory tracking`
+
+**Your workflow:**
+```bash
+# Work on your code...
+git add .
+git commit -m "Define PostgreSQL schema for multi-warehouse inventory tracking"
+git push origin main
